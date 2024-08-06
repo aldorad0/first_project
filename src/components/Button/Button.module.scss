@@ -1,9 +1,24 @@
-.root {
-  button {
-    box-sizing: border-box;
-    padding: 6px 12px;
-    width: fit-content;
-    border-radius: 5px;
-    
+.button {
+  
+  box-sizing: border-box;
+  padding: 15px 30px;
+  width: fit-content;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0;
+  color: #fffaf0;
+  &.filled{
+    background-color: #008cba;
+  }
+  &:hover {
+    background-color: #0056b3;
+  }
+
+  &:active {
+    background-color: #003f7f;
+  }
+   &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
   }
 }

@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./Button.module.scss"
 
-const Button = (props) => {
-  console.log(props);
+const Button = ({children, ...props}) => {
+  
+  
   
   return (
-    <button className={styles.button}>  
-     
+    <button className={styles.button}{...props}>  
+    {children} 
     </button>
   )
 }
