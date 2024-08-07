@@ -15,13 +15,7 @@
     "jsx": "react-jsx"
   },
   "exclude": [
-    "node_modules",
-    "build",
-    "scripts",
-    "acceptance-tests",
-    "webpack",
-    "jest",
-    "src/setupTests.ts"
+    "node_modules"
   ],
   "types": [
     "typePatches"
